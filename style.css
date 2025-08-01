@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(45deg, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
+}
+
+header{
+    background-color: black; 
+    color: white;
+    height: 10%;
+    display: flex;
+    justify-content: left;  
+    font-family: "Pacifico", cursive;
+    padding: 10px;
+    text-decoration: underline;
+    flex-direction: column;
+}
+
+header > p{
+    margin-left: 30px;
+}
+
+.timeline{
+    font-family: "Playwrite AU NSW", cursive;
+    max-width: 500px;
+    padding: 0 20px;
+    margin: 5% auto 5%;
+}
+
+.timeline > article {
+    background: white;
+    padding: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 10px rgb(24, 24, 24);
+    transition: transform 0.3s ease; 
+    animation-fill-mode: none;
+}
+
+.timeline > article:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.timeline > article:last-child{
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    body{
+       font-size: 75%;
+    }
+}
