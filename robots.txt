@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://localhost/portfolio_tsi/sitemap.xml
+Sitemap: https://leaffar0.github.io/Portifolio_TSI/sitemap.xml
