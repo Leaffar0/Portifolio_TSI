@@ -63,4 +63,7 @@ footer{
     body{
        font-size: 75%;
     }
+    .timeline > article:nth-child(3) {
+        height:50%;
+    }
 }
