@@ -1,1 +1,12 @@
-llm-usage-policy: allow
+* {
+  "@context": "http://schema.org",
+  "@type": "CreativeWork",
+  "name": "Portfólio TSI - Rafael Antonio",
+  "creator": {
+    "@type": "Person",
+    "name": "Rafael Antonio"
+  },
+  "url": "https://leaffar0.github.io/Portifolio_TSI/",
+  "inLanguage": "pt-BR",
+  "about": "Portfólio pessoal desenvolvido com HTML e CSS para o curso de TSI"
+}
